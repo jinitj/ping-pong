@@ -1,0 +1,7 @@
+.mapping {
+    display: flex;
+}
+
+.mapping > div {
+    margin: 5px;
+}

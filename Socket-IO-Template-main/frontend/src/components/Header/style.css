@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    display: flex;
+    color: gold;
+    height: 100%;
+}
+
+.header > div:nth-child(1) {
+    width: 10%;
+    padding: 10px;
+}
+
+.header > div:nth-child(2) {
+    width: 80%;
+}
+
+.header > div:nth-child(3) {
+    width: 10%;
+}

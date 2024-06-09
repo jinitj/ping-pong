@@ -1,0 +1,11 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.social-icons > a {
+    margin: 5px;
+}
