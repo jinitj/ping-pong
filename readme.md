@@ -1,4 +1,4 @@
-Here is the summary of normal responses and error responses for all endpoints, formatted in a bullet point style for inclusion in your README:
+Platform summary
 
 ### Available Endpoints
 
