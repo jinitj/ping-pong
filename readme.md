@@ -94,3 +94,68 @@ To start the backend on LAN (e.g., WiFi):
 1. `cd socketio-server`
 2. Go to the `.env` file of backend code and replace the value of `APP_HOST` with your IP.
 3. `npm run debug`
+
+
+Here's the updated README-compatible section about the game, including the available users and how to play the game:
+
+### About the Game
+
+The available users with their usernames, passwords, and roles are as follows:
+
+- **Eliud**: 
+  - Username: Eliud 
+  - Password: Eliud 
+  - Role: Player
+
+- **Mo**: 
+  - Username: Mo 
+  - Password: Mo 
+  - Role: Player
+
+- **Mary**: 
+  - Username: Mary 
+  - Password: Mary 
+  - Role: Player
+
+- **Usain**: 
+  - Username: Usain 
+  - Password: Usain 
+  - Role: Player
+
+- **Paula**: 
+  - Username: Paula 
+  - Password: Paula 
+  - Role: Player
+
+- **Galen**: 
+  - Username: Galen 
+  - Password: Galen 
+  - Role: Player
+
+- **Shalane**: 
+  - Username: Shalane 
+  - Password: Shalane 
+  - Role: Player
+
+- **Haile**: 
+  - Username: Haile 
+  - Password: Haile 
+  - Role: Player
+
+- **Admin**: 
+  - Username: Admin 
+  - Password: Admin 
+  - Role: Referee
+
+**Note**: Use the above credentials to log in to the game. There is no signup option.
+
+### How to Play the Game
+
+1. The players and referee log in using their credentials.
+2. The referee, when 8 players have joined, creates the first set of matches for the tournament by clicking "Start Tournament". The matches will get created if 2^x players are available (e.g., 8, 4, 2). For 8 players, the rounds will be fixtures, semi-finals, and finals; for 4 players, the rounds will be semi-finals and finals; for 2 players, only the final round will be created.
+3. Players can check the status of the match they have been allotted.
+4. Players play the match using the "make move" button.
+5. Players are notified of the change in match state after their move. They are also notified if it is not their turn to play.
+6. The referee/admin can see the match report using the report button.
+
+

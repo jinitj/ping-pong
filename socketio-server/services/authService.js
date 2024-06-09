@@ -9,7 +9,7 @@ const users = [
   { username: 'Galen', password: bcrypt.hashSync('Galen', 8), role: 'user' },
   { username: 'Shalane', password: bcrypt.hashSync('Shalane', 8), role: 'user' },
   { username: 'Haile', password: bcrypt.hashSync('Haile', 8), role: 'user' },
-  { username: 'Jinit', password: bcrypt.hashSync('Jinit', 8), role: 'admin' },
+  { username: 'Admin', password: bcrypt.hashSync('Admin', 8), role: 'admin' },
 ];
 
 const findUserByUsername = (username) => {
