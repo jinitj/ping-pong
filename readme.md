@@ -74,13 +74,15 @@ Platform summary
 
 To start the frontend server on localhost:
 1. `cd Socket-IO-Template-main/frontend`
-2. `npm start`
+2. `npm i`
+3. `npm start`
 
 To start the frontend on LAN (e.g., WiFi):
 1. `cd Socket-IO-Template-main/frontend`
-2. Go to the `.env` file of frontend code and replace the value of `REACT_APP_HOST` with your server IP.
-3. Go to `package.json` inside `Socket-IO-Template-main/frontend` and add a key on the root level: `"proxy": "http://<your-ip>:4000"`.
-4. `npm start HOST="<your-ip>"`
+2. `npm i`
+3. Go to the `.env` file of frontend code and replace the value of `REACT_APP_HOST` with your server IP.
+4. Go to `package.json` inside `Socket-IO-Template-main/frontend` and add a key on the root level: `"proxy": "http://<your-ip>:4000"`.
+5. `npm start HOST="<your-ip>"`
 
 Now the frontend is up and running.
 
@@ -88,12 +90,14 @@ Now the frontend is up and running.
 
 To start the backend server on localhost:
 1. `cd socketio-server`
-2. `npm run debug` (there is a debug script inside the code which will be present in the folder `.vscode`, and it is not added to `.gitignore`).
+2. `npm i`
+3. `npm run debug` (there is a debug script inside the code which will be present in the folder `.vscode`, and it is not added to `.gitignore`).
 
 To start the backend on LAN (e.g., WiFi):
 1. `cd socketio-server`
-2. Go to the `.env` file of backend code and replace the value of `APP_HOST` with your IP.
-3. `npm run debug`
+2. `npm i`
+3. Go to the `.env` file of backend code and replace the value of `APP_HOST` with your IP.
+4. `npm run debug`
 
 
 Here's the updated README-compatible section about the game, including the available users and how to play the game:
